@@ -1,0 +1,16 @@
+{
+  "name": "Frontend Dev Container",
+  "dockerComposeFile": ["../../docker-compose.yml"],
+  "service": "frontend",
+  "workspaceFolder": "/app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "rvest.vs-code-react-native-snippets"
+      ]
+    }
+  },
+  // "postCreateCommand": "pnpm install"
+}
